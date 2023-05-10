@@ -1,0 +1,169 @@
+/* Global styles */
+body {
+    margin-top: 0px;
+    background-color: #092346;
+    color: #a5d7e8;
+    font-family: Arial, sans-serif;
+  }
+  
+  a {
+    color: darkcyan;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #fff;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  /* Header styles */
+  header {
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #092346;
+  }
+  .flex1{
+    display: flex;
+  }
+  /* Profile image Section*/
+  .profile_image{
+    width: 200px;
+    height: 200px;
+    padding-top: 40px;
+    flex-basis: 40%;
+  }
+  /* About section styles */
+  .about {
+    height: 50px;
+    padding: 10px 0;
+    flex-basis: 60%;
+  }
+  
+  .about h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  
+  .about p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Experience section styles */
+  .expiriance {
+    padding: 100px 0;
+  }
+  
+  .expiriance h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .project h2 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .project p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .project a {
+    display: inline-block;
+    background-color: #092346;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project a:hover {
+    background-color: #fff;
+    color: #092346;
+  }
+  
+  /* Contact section styles */
+  .contact {
+    height: 500px;
+    padding: 100px 0;
+  }
+  
+  .contact h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  
+  .contact label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .contact button[type="submit"] {
+    display: block;
+    background-color: #092346;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact button[type="submit"]:hover {
+    background-color: #fff;
+    color: #092346;
+  }
+  
+  /* Footer styles
+  
