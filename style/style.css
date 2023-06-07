@@ -763,7 +763,6 @@ section {
   .contact-item .icon {
     grid-template-columns: 25px 1fr;
   }
-
   .main-title h2 {
     font-size: 2rem;
   }
@@ -778,7 +777,6 @@ section {
   .container {
     padding: 7rem 11rem;
   }
-
   .contact-content-con {
     flex-direction: column;
   }
@@ -786,20 +784,16 @@ section {
     margin-left: 0;
     margin-top: 2.5rem;
   }
-
   .contact-content-con .right-contact .i-c-2 {
     flex-direction: column;
   }
-
   .contact-content-con .right-contact .i-c-2 :last-child {
     margin-left: 0;
     margin-top: 1.5rem;
   }
-
   .contact-content-con .right-contact {
     margin-bottom: 6rem;
   }
-
   .main-title h2 .bg-text {
     font-size: 5.5rem;
   }
@@ -808,7 +802,6 @@ section {
   .portfolios {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .header-content .right-header {
     padding-right: 9rem;
   }
@@ -822,7 +815,6 @@ section {
   .portfolios {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .header-content .right-header {
     padding-right: 9rem;
   }
@@ -839,7 +831,6 @@ section {
   .about-container .right-about {
     padding-top: 2.5rem;
   }
-
   .main-title h2 {
     font-size: 4rem;
   }
@@ -854,16 +845,13 @@ section {
   .container {
     padding: 7rem 6rem;
   }
-
   .about-container .left-about {
     padding-right: 0rem;
   }
-
   .header-content {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
-
   .left-header .h-shape {
     display: none;
   }
@@ -871,7 +859,6 @@ section {
     width: 90% !important;
     margin: 0 auto !important;
   }
-
   .right-header {
     grid-row: 1;
     padding-right: 0rem !important;
@@ -888,19 +875,15 @@ section {
   .container {
     padding: 7rem 3rem;
   }
-
   .about-stats .progress-bars {
     grid-template-columns: repeat(1, 1fr);
   }
-
   .about-container .right-about {
     grid-template-columns: repeat(1, 1fr);
   }
-
   .timeline {
     grid-template-columns: repeat(1, 1fr);
   }
-
   .main-title h2 {
     font-size: 3rem;
   }
@@ -911,5 +894,4 @@ section {
     font-size: 4rem;
   }
 }
-
 /*# sourceMappingURL=styles.css.map */
